@@ -1,8 +1,11 @@
-##READ ME
+##README
 
 > 2013.1.11 update from (http://developer.apple.com/library/ios/#documentation/userexperience/conceptual/mobilehig/IconsImages/IconsImages.html)
 
 > 2013.9.25 update from (https://developer.apple.com/library/ios/documentation/userexperience/conceptual/mobilehig/AppIcons.html#//apple_ref/doc/uid/TP40006556-CH19-SW1)
+
+> 2014.10.8 Add iPhone 6 and iPhone 6 Plus
+
 
 
 ####App icon for the App Store
@@ -25,7 +28,9 @@
 | File | size | Description | Device |
 | ---- | ---- | ----------- | ------ |
 | Default.psd | 320 x 480 | Launch image | iPhone and iPod touch || Default@2x.psd | 640 x 960 | Launch image | high-resolution iPhone and iPod touch |
-| Default-568h@2x.psd | 640 x 1136 | Launch image | iPhone 5 and iPod touch (5th generation) || Default-Landscape.psd | 1024 x 748 | Launch image (landscape) | iPad || Default-Landscape@2x.psd | 2048 x 1496 | Launch image (landscape) | high-resolution iPad || Default-Portrait.psd | 768 x 1004 | Launch image (portrait) | iPad || Default-Portrait@2x.psd | 1536 x 2008 | Launch image (portrait) | high-resolution iPad |※iPad image has become a 768x1004 The iOS Human Interface Guidelines, But psd has become 768x1024 error will appear in XCode it this size for some reason.
+| Default-568h@2x.psd | 640 x 1136 | Launch image | iPhone 5 and iPod touch (5th generation) |
+| Default-1334h@2x.psd | 750 x 1334 | Launch image | iPhone 6 |
+| Default@3x.psd | 1242 x 2208 | Launch image | iPhone 6 Plus || Default-Landscape.psd | 1024 x 748 | Launch image (landscape) | iPad || Default-Landscape@2x.psd | 2048 x 1496 | Launch image (landscape) | high-resolution iPad || Default-Portrait.psd | 768 x 1004 | Launch image (portrait) | iPad || Default-Portrait@2x.psd | 1536 x 2008 | Launch image (portrait) | high-resolution iPad |※iPad image has become a 768x1004 The iOS Human Interface Guidelines, But psd has become 768x1024 error will appear in XCode it this size for some reason.
 
 ----------
 ##optional
